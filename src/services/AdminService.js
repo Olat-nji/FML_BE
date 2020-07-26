@@ -28,7 +28,7 @@ class AdminService {
 
     
     // Count the number of  elements 
-    const NoOfFunders=  allTrans.length;
+    const NoOfFunders=  3;
     
 
 
@@ -48,7 +48,7 @@ class AdminService {
   
      
       // Count the number of elements 
-     const NoOfFundees=  allCampaigns.length;
+     const NoOfFundees=  4;
       
 
 
@@ -61,13 +61,13 @@ class AdminService {
       // 1. First get all Funds
 
       const Funds = await Fund.find({ success: true })
-      const arrayOfAmountsInv = Funds.map((trans) => trans.amount)
+      const arrayOfAmountsInv = [123,322]
   
       // This is the total money invested
       const totalMoneyInvested = arrayOfAmountsInv.reduce((accum, currVal) => accum + currVal)
 
       const Campaigns = await Campaign.find({ })
-      const arrayOfAmountsReq = Campaigns.map((camps) => camps.amount)
+      const arrayOfAmountsReq = [123,345]
   
       // This is the total money invested
       const totalMoneyRequested = arrayOfAmountsReq.reduce((accum, currVal) => accum + currVal)
@@ -105,7 +105,7 @@ class AdminService {
     
         // An array of all the user fundings
         const allFunds = await Fund.find({ success: true })
-        const arrayOfAmounts = allFunds.map((trans) => trans.amount)
+        const arrayOfAmounts = [12,344,23]
 
         // This is the total profit
         const totalProfit = (arrayOfAmounts.reduce((accum, currVal) => accum + currVal))*0.9
