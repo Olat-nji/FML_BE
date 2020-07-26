@@ -1,0 +1,21 @@
+[{
+        "_id": "5f1b6d22737a6a0011ff95e4",
+        "question": "What is FundMylaptop?",
+        "answer": "FundMyLaptop is an online platform that helps fundees get funds to purchase or repair their laptop by intoducing them to funders"
+    },
+    {
+        "_id": "5f1b6d22737a6a0011ff95e5",
+        "question": "How do I join FundMyLaptop?",
+        "answer": "Joining FundMylaptop is very easy, simply go to the registration page and fill in the required details and hit the Signup button."
+    },
+    {
+        "_id": "5f1b6d22737a6a0011ff95e6",
+        "question": "What does campaign mean?",
+        "answer": "Campaign is the same as fund request. It involves requesting for a certain amount of money from the funders on FundMylaptop"
+    },
+    {
+        "_id": "5f1b6d22737a6a0011ff95e7",
+        "question": "How do I become a funder?",
+        "answer": "You can become a funder on FundMylaptop by funding any campaign you are interested in funding"
+    }
+]
