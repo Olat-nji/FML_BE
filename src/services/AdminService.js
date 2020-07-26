@@ -28,7 +28,7 @@ class AdminService {
 
     
     // Count the number of  elements 
-    const NoOfFunders=  3;
+    const NoOfFunders=  1;
     
 
 
@@ -48,7 +48,7 @@ class AdminService {
   
      
       // Count the number of elements 
-     const NoOfFundees=  4;
+     const NoOfFundees=  1;
       
 
 
