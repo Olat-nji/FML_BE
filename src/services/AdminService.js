@@ -71,7 +71,7 @@ class AdminService {
   
       // This is the total money invested
       const totalMoneyRequested = arrayOfAmountsReq.reduce((accum, currVal) => accum + currVal)
-      const percent =(totalMoneyRequested/totalMoneyInvested)*100
+      const percent =(totalMoneyInvested/totalMoneyRequested)*100
       
     
     
